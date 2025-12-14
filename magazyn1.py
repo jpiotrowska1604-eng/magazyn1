@@ -5,7 +5,8 @@ import pandas as pd
 # Bez st.session_state, ten stan będzie ładowany przy każdym przerysowaniu.
 magazyn = ["Laptop (12)", "Monitor (5)", "Klawiatura (20)"]
 
-st.title("🛒 Prosty Magazyn (Resetujący się - bez Sesji)")
+# Zmiana tytułu głównego
+st.title("🛒 Prosty Magazyn")
 st.caption("Stan magazynu jest ładowany od nowa przy każdej akcji (dodawanie/usuwanie) z uwagi na brak st.session_state.")
 
 # Wyświetlanie aktualnego magazynu
